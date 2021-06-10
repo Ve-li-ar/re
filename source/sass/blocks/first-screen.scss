@@ -1,0 +1,133 @@
+.first-screen {
+  background-color: $basic-blue;
+  padding-top: 21px;
+  border-radius: 0px 0px 100px 100px;
+  z-index: 1;
+}
+
+.first-screen__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.first-screen__list-advantages,
+.first-screen__caption {
+  color: $white;
+}
+
+.first-screen__img {
+  width: 36.8vw;
+  max-width: 530px;
+  height: 24.3vw;
+  max-height: 350px;
+  margin: auto 0;
+
+  @media (max-width: $tablet) {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+    width: 50vw;
+    height: auto;
+  }
+}
+
+.first-screen__caption {
+  padding-top: 96px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: "inter";
+  padding-bottom: 40px;
+
+  @media (max-width: $tablet) {
+    font-size: 28px;
+  }
+}
+
+.first-screen__flex {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+  }
+}
+
+.first-screen__list-advantages {
+  padding-left: 0;
+  font-size: 18px;
+  list-style-type: none;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.first-screen__item {
+  padding-bottom: 33px;
+  padding-left: 60px;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+
+  &--tasks {
+    background-image: url("../../img/task.svg");
+    background-size: 48px;
+    background-repeat: no-repeat;
+  }
+
+  &--video {
+    background-image: url("../../img/video.svg");
+    background-size: 48px;
+    background-repeat: no-repeat;
+  }
+
+  &--practices {
+    background-image: url("../../img/practices.svg");
+    background-size: 48px;
+    background-repeat: no-repeat;
+  }
+
+  &--checked {
+    background-image: url("../../img/checked.svg");
+    background-size: 48px;
+    background-repeat: no-repeat;
+  }
+
+  &--chat {
+    background-image: url("../../img/chat.svg");
+    background-size: 48px;
+    background-repeat: no-repeat;
+  }
+}
+
+.first-screen__button {
+  color: $black;
+  background-color: $yellow;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 42px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 20px;
+
+  @media (min-width: $desktop) {
+    margin-left: 0;
+  }
+}
+
+.first-screen__container {
+  @media (max-width: $tablet) {
+    margin: 0 auto;
+  }
+}
+
+.first-screen__container-caption {
+  text-align: center;
+}
+
+.in-active {
+  background-color: transparent;
+}
