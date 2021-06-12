@@ -1,0 +1,57 @@
+.navbar {
+  width: 41.66vw;
+  background-color: #ffffff;
+  color: #3a5165;
+  border: 1px solid rgba(118, 148, 174, 0.3);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 10px;
+
+  @media (max-width: $tablet) {
+    width: 65vw;
+
+    min-height: 100px;
+  }
+}
+
+.navbar-toggler-icon {
+  width: 50vw;
+  color: #3a5165;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Inter;
+  padding: 0 0 0 0;
+  text-align: left;
+}
+
+.nav-link {
+  color: $black;
+}
+
+.navbar-header {
+  width: 100%;
+  background-color: #0c397c;
+  font-family: "PT Mono", monospace;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-toggler {
+  flex-wrap: nowrap;
+  width: 94%;
+  padding-left: 0;
+  padding: 10px 0;
+  display: flex;
+
+  &:active,
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+
+  @media (max-width: $tablet) {
+    padding-top: 0;
+  }
+}
