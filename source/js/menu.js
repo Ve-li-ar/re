@@ -1,6 +1,7 @@
-const programBlock = document.querySelectorAll('.program__block');
-const programOpen = document.querySelectorAll('.visually-hidden');
+// const programBlock = document.querySelectorAll('.navbar-expland-lg');
+// const programOpen = document.querySelectorAll('.program__open');
+// const visually = document.querySelectorAll('.visually-hidden')
 
-programBlock.addEventListener('click', () => {
-  programOpen.classList.toggle('program__open');
-});
+// programBlock.addEventListener('click', () => {
+//   programOpen.remove('visually-hidden');
+// });
