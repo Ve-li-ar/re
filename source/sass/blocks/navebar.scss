@@ -55,3 +55,39 @@
     padding-top: 0;
   }
 }
+
+.navbar-collapse {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: #ffffff;
+  padding-right: 12px;
+
+  &--button {
+    border: 1px solid #ffffff;
+  }
+}
+
+.active {
+  background-color: #ffffff;
+  color: #480a35;
+  padding-right: 12px;
+}
+
+.nav-item--span {
+  display: flex;
+}
+.nav-item__span-ru {
+  padding-right: 24px;
+  color: #ffffff;
+  opacity: 0.6;
+  padding-top: 8px;
+}
+
+.dropdown-menu {
+  z-index: 1000;
+  overflow: hidden;
+}

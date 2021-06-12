@@ -16,32 +16,30 @@
 </head>
 
 <body>
-  <header class="header" style="height: 100%">
+  <header class="header">
     <nav class="navbar-header navbar-expand-lg">
-      <div class="container-xxl" style="width: 90vw">
-        <div class="collapse navbar-collapse" id="navbarScroll"
-          style="display: flex; flex-wrap: wrap; box-sizing: border-box">
+      <div class="container-xxl">
+        <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 300px">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: #ffffff; padding-right: 12px">Главная</a>
+              <a class="nav-link" aria-current="page" href="#">Главная</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">О нас</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #ffffff; padding-right: 12px">Отзывы</a>
+              <a class="nav-link" href="#">Отзывы</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #ffffff; padding-right: 12px">Контакты</a>
+              <a class="nav-link" href="#">Контакты</a>
             </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff; padding-right: 12px">
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Практикумы
               </a>
-              <ul class="dropdown-menu" style="z-index: 1000; overflow: hidden"
-                aria-labelledby="navbarScrollingDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
@@ -53,25 +51,17 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #ffffff; padding-right: 12px">Для бизнеса</a>
+              <a class="nav-link" href="#">Для бизнеса</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
             </li>
           </ul>
 
-          <div class="nav-item dropdown" style="display: flex">
-            <span style="
-                  padding-right: 24px;
-                  color: #ffffff;
-                  opacity: 0.6;
-                  padding-top: 8px;
-                ">RU</span>
-            <button id="navbarScrollingDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="
-                  color: #ffffff;
-                  padding-right: 12px;
-                  border: 1px solid #ffffff;
-                " class="nav-link dropdown-toggle btn" type="submit">
+          <div class="nav-item nav-item--span dropdown">
+            <span class="nav-item__span-ru">RU</span>
+            <button id="navbarScrollingDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+              class="nav-link nav-link--button dropdown-toggle btn" type="submit">
               Личный кабинет
             </button>
           </div>
